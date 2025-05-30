@@ -1,0 +1,49 @@
+.city-div {
+  margin-top: 2rem;
+  animation: fadeIn 0.8s ease;
+}
+
+.city-text {
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 2;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.city-text div {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  justify-content: space-between;
+}
+
+.city-text div:last-child {
+  border-bottom: none;
+}
+
+.city-text strong {
+  font-size: 1.4rem;
+  display: block;
+  margin-bottom: 0.8rem;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.city-text span:first-child {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.city-text span:last-child {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
